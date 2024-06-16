@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Аппендер для файлового логгера loggingInfo -->
+        <File name="loggingInfo" fileName="loggingInfo.log" append="true">
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+
+        <!-- Аппендер для файлового логгера loggingError -->
+        <File name="loggingError" fileName="loggingError.log" append="true">
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Конфигурация для логгера commands -->
+        <Logger name="commands" level="INFO" additivity="false">
+            <AppenderRef ref="loggingInfo"/>
+        </Logger>
+        <Root level="INFO">
+            <AppenderRef ref="loggingInfo"/>
+            <AppenderRef ref="loggingError"/>
+        </Root>
+    </Loggers>
+</Configuration>

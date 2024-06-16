@@ -1,0 +1,113 @@
+11:45:48.661 [main] INFO  factory.CommandFactory - CommandFactory initialized successfully.
+11:45:50.775 [main] INFO  factory.CommandFactory - Produced new instance of PUSH command.
+11:45:53.279 [main] INFO  factory.CommandFactory - Produced new instance of DIVIDE command.
+11:45:53.280 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:46:52.712 [main] INFO  factory.CommandFactory - CommandFactory initialized successfully.
+11:46:57.340 [main] INFO  factory.CommandFactory - Produced new instance of PUSH command.
+11:47:01.399 [main] INFO  factory.CommandFactory - Produced new instance of DIVIDE command.
+11:47:01.399 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:47:55.692 [main] INFO  factory.CommandFactory - CommandFactory initialized successfully.
+11:47:57.640 [main] INFO  factory.CommandFactory - Produced new instance of PUSH command.
+11:48:06.319 [main] ERROR com.sun.tools.javac.Main - CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:48:06.329 [main] INFO  factory.CommandFactory - Produced new instance of DIVIDE command.
+11:48:06.329 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:49:37.894 [main] INFO  factory.CommandFactory - CommandFactory initialized successfully.
+11:49:39.591 [main] INFO  factory.CommandFactory - Produced new instance of PUSH command.
+11:49:39.592 [main] ERROR com.sun.tools.javac.Main - CommandException or CommandProductionException occurred: 1 argument expected for Push, 0 arguments were given.
+exceptions.BadFormatException: 1 argument expected for Push, 0 arguments were given.
+	at commands.PushCommand.execute(PushCommand.java:9) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:49:40.412 [main] ERROR com.sun.tools.javac.Main - CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:49:45.563 [main] INFO  factory.CommandFactory - Produced new instance of DIVIDE command.
+11:49:45.563 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:50:29.093 [main] CommandFactory initialized successfully.
+11:50:29.585 [main] CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:50:29.779 [main] CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:50:29.935 [main] CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:50:30.133 [main] CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:51:48.349 [main] INFO  factory.CommandFactory - CommandFactory initialized successfully.
+11:51:51.636 [main] INFO  factory.CommandFactory - Produced new instance of PUSH command.
+11:51:57.475 [main] INFO  factory.CommandFactory - Produced new instance of DIVIDE command.
+11:52:00.738 [main] INFO  factory.CommandFactory - Produced new instance of PRINT command.
+11:52:07.998 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:54:11.908 [main] INFO  factory.CommandFactory - CommandFactory initialized successfully.
+11:54:11.913 [main] INFO  factory.CommandFactory - Produced new instance of PUSH command.
+11:54:11.914 [main] INFO  factory.CommandFactory - Produced new instance of PLUS command.
+11:54:11.915 [main] INFO  factory.CommandFactory - Produced new instance of DIVIDE command.
+11:54:11.915 [main] INFO  factory.CommandFactory - Produced new instance of MULTIPLY command.
+11:54:11.915 [main] INFO  factory.CommandFactory - Produced new instance of PRINT command.
+11:54:26.361 [main] INFO  factory.CommandFactory - CommandFactory initialized successfully.
+11:54:26.366 [main] INFO  factory.CommandFactory - Produced new instance of PUSH command.
+11:54:26.367 [main] INFO  factory.CommandFactory - Produced new instance of PLUS command.
+11:54:26.367 [main] INFO  factory.CommandFactory - Produced new instance of DIVIDE command.
+11:54:26.367 [main] INFO  factory.CommandFactory - Produced new instance of MULTIPLY command.
+11:54:26.368 [main] INFO  factory.CommandFactory - Produced new instance of PRINT command.
+11:55:56.601 [main] INFO  factory.CommandFactory - CommandFactory initialized successfully.
+11:55:56.606 [main] INFO  factory.CommandFactory - Produced new instance of PUSH command.
+11:55:56.608 [main] INFO  factory.CommandFactory - Produced new instance of PLUS command.
+11:55:56.608 [main] INFO  factory.CommandFactory - Produced new instance of DIVIDE command.
+11:55:56.608 [main] INFO  factory.CommandFactory - Produced new instance of MULTIPLY command.
+11:55:56.609 [main] INFO  factory.CommandFactory - Produced new instance of PRINT command.
+11:56:09.334 [main] INFO  factory.CommandFactory - CommandFactory initialized successfully.
+11:56:09.339 [main] INFO  factory.CommandFactory - Produced new instance of PUSH command.
+11:56:09.340 [main] INFO  factory.CommandFactory - Produced new instance of PLUS command.
+11:56:09.340 [main] INFO  factory.CommandFactory - Produced new instance of DIVIDE command.
+11:56:09.341 [main] INFO  factory.CommandFactory - Produced new instance of MULTIPLY command.
+11:56:09.341 [main] INFO  factory.CommandFactory - Produced new instance of PRINT command.

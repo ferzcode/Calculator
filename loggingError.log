@@ -1,0 +1,66 @@
+11:42:03.527 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:45:53.280 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:47:01.399 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:49:39.592 [main] ERROR com.sun.tools.javac.Main - CommandException or CommandProductionException occurred: 1 argument expected for Push, 0 arguments were given.
+exceptions.BadFormatException: 1 argument expected for Push, 0 arguments were given.
+	at commands.PushCommand.execute(PushCommand.java:9) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:49:40.412 [main] ERROR com.sun.tools.javac.Main - CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:49:45.563 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:50:29.585 [main] ERROR com.sun.tools.javac.Main - CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:50:29.779 [main] ERROR com.sun.tools.javac.Main - CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:50:29.935 [main] ERROR com.sun.tools.javac.Main - CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:50:30.133 [main] ERROR com.sun.tools.javac.Main - CommandException or CommandProductionException occurred: Invalid command name.
+exceptions.CommandProductionException: Invalid command name.
+	at factory.CommandFactory.receiveCommand(CommandFactory.java:30) ~[classes/:?]
+	at Calculator.execute(Calculator.java:22) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
+11:52:07.998 [main] ERROR com.sun.tools.javac.Main - MathematicalException or EmptyNumStackException occurred: Division by zero.
+exceptions.MathematicalException: Division by zero.
+	at commands.DivCommand.execute(DivCommand.java:21) ~[classes/:?]
+	at Calculator.execute(Calculator.java:23) ~[classes/:?]
+	at main.run(main.java:33) ~[classes/:?]
+	at main.main(main.java:63) ~[classes/:?]
